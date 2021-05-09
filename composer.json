@@ -9,9 +9,9 @@
 		"overtrue/phplint": "^2.0"
     },
     "scripts": {
-        "lint": "phplint --no-cache hello.php",
-        "phpcs": "phpcs --standard=PSR12 hello.php",
-        "phpcbf": "phpcbf --standard=PSR12 hello.php",
+        "lint": "phplint --no-cache src/",
+        "phpcs": "phpcs --standard=PSR12 .",
+        "phpcbf": "phpcbf --standard=PSR12 .",
         "test": "phpunit tests/"
     }
 }
